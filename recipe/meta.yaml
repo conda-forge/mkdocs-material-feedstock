@@ -41,7 +41,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: A Material Design theme for MkDocs
+  summary: A Material Design theme for mkdocs
   doc_url: https://squidfunk.github.io/mkdocs-material/
   dev_url: https://squidfunk.github.io/mkdocs-material/customization/
 
