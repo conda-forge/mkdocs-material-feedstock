@@ -7,7 +7,7 @@ Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
-Summary: A Material Design theme for MkDocs
+Summary: A Material Design theme for mkdocs
 
 
 
@@ -116,5 +116,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@marcelotrevisani](https://github.com/marcelotrevisani/)
 * [@monaldoj](https://github.com/monaldoj/)
 
