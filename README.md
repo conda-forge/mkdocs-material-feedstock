@@ -5,7 +5,7 @@ Home: https://squidfunk.github.io/mkdocs-material/
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A Material Design theme for mkdocs
 
