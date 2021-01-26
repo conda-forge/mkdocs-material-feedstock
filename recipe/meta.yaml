@@ -1,5 +1,5 @@
 {% set name = "mkdocs-material" %}
-{% set version = "6.2.5" %}
+{% set version = "6.2.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 26900f51e177eb7dcfc8140ffe33c71b22ffa2920271e093679f0670b78e7e8b
+  sha256: 7effb1aac0505d35b58117a3477083f315f574e4f86f8d6011f6ee7eb9041863
 
 build:
   number: 0
