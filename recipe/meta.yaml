@@ -10,7 +10,7 @@ source:
   sha256: 1016e4f2207c23683c7074d826eb549a5aabd95811aaa09bd2cfea1c1ea831f4
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -21,11 +21,10 @@ requirements:
   run:
     - markdown >=3.2
     - mkdocs >=1.1
+    - mkdocs-material-extensions >=1.0
     - pygments >=2.4
     - pymdown-extensions >=7.0
     - python >3.0
-  run_constrained:
-    - mkdocs-material-extensions >=1.0
 
 test:
   imports:
