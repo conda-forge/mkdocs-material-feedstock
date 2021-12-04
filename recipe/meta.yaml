@@ -1,5 +1,5 @@
 {% set name = "mkdocs-material" %}
-{% set version = "8.0.3" %}
+{% set version = "8.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f3a109551e1611b76d8a8691107c65fbfef74682d2824d6b2d47c0b9faa55070
+  sha256: 9a2a638c05e48c58786e5be558c0ea8995d8fa20138f1ed22bee48eb08528a36
 
 build:
   number: 0
