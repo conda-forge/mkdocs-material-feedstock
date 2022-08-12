@@ -5,7 +5,7 @@ Home: https://squidfunk.github.io/mkdocs-material/
 
 Package license: MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mkdocs-material-feedstock/blob/main/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mkdocs-material-feedstock-fork-feedstock/blob/main/LICENSE.txt)
 
 Summary: A Material Design theme for mkdocs
 
@@ -19,8 +19,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6827&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mkdocs-material-feedstock?branchName=main">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mkdocs-material-feedstock-fork-feedstock?branchName=main">
       </a>
     </td>
   </tr>
