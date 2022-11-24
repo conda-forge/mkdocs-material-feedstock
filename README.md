@@ -149,4 +149,5 @@ Feedstock Maintainers
 
 * [@marcelotrevisani](https://github.com/marcelotrevisani/)
 * [@monaldoj](https://github.com/monaldoj/)
+* [@thewchan](https://github.com/thewchan/)
 
