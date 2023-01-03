@@ -1,5 +1,5 @@
 {% set name = "mkdocs-material" %}
-{% set version = "8.5.11" %}
+{% set version = "9.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mkdocs_material-{{ version }}.tar.gz
-  sha256: b0ea0513fd8cab323e8a825d6692ea07fa83e917bb5db042e523afecc7064ab7
+  sha256: c0e2df04adeac45b8051160d042624c44429c4dd3efc8baaa9ddb2cd1309afb0
 
 build:
   number: 0
@@ -22,13 +22,15 @@ requirements:
     - pip
     - python >=3.7
   run:
-    - jinja2 >=3.0.2
+    - colorama >=0.4
+    - jinja2 >=3.0
     - markdown >=3.2
-    - mkdocs >=1.4.0
+    - mkdocs >=1.4.2
     - mkdocs-material-extensions >=1.1
-    - pygments >=2.12
-    - pymdown-extensions >=9.4
+    - pygments >=2.14
+    - pymdown-extensions >=9.9
     - python >=3.7
+    - regex >=2022.4.24
     - requests >=2.26
 
 test:
