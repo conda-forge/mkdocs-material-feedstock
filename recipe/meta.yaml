@@ -22,6 +22,7 @@ requirements:
     - pip
     - python >=3.7
   run:
+    - colorama >=0.4
     - jinja2 >=3.0
     - markdown >=3.2
     - mkdocs >=1.4.2
@@ -29,6 +30,7 @@ requirements:
     - pygments >=2.14
     - pymdown-extensions >=9.9
     - python >=3.7
+    - regex >=2022.4.24
     - requests >=2.26
 
 test:
