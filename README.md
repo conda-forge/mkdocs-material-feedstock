@@ -1,11 +1,11 @@
-About mkdocs-material
-=====================
+About mkdocs-material-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mkdocs-material-feedstock/blob/main/LICENSE.txt)
 
 Home: https://squidfunk.github.io/mkdocs-material/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mkdocs-material-feedstock/blob/main/LICENSE.txt)
 
 Summary: A Material Design theme for mkdocs
 
