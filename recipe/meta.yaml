@@ -1,5 +1,5 @@
 {% set name = "mkdocs-material" %}
-{% set version = "9.3.1" %}
+{% set version = "9.3.2" %}
 
 
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mkdocs_material-{{ version }}.tar.gz
-  sha256: 793c4ec0978582380491a68db8ac4f7e0d5467a736c9884c05baf95a143f32f7
+  sha256: 7b3a35a7731af02d70d120224fcec053ce09bebbf83dff3366ab72abc4d5fc89
 
 
 build:
@@ -23,22 +23,20 @@ requirements:
     - hatch-requirements-txt
     - hatchling
     - pip
-    - python >=3.7
+    - python >=3.8
   run:
-    - babel >=2.10.3
-    - colorama >=0.4
-    - jinja2 >=3.0
-    - lxml >=4.6
-    - markdown >=3.2
-    - mkdocs >=1.5.2
-    - mkdocs-material-extensions >=1.1
-    - paginate >=0.5.6
-    - pygments >=2.14
-    - pymdown-extensions >=9.9.1
-    - python >=3.7
-    - readtime >=2.0
-    - regex >=2022.4.24
-    - requests >=2.26
+    - babel ~=2.10
+    - colorama ~=0.4
+    - jinja2 ~=3.0
+    - markdown ~=3.2
+    - mkdocs ~=1.5
+    - mkdocs-material-extensions ~=1.1
+    - paginate ~=0.5
+    - pygments ~=2.16
+    - pymdown-extensions ~=10.2
+    - python >=3.8
+    - regex ~=2022.4
+    - requests ~=2.26
 
 test:
   imports:
