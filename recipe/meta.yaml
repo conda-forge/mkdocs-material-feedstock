@@ -1,5 +1,5 @@
 {% set name = "mkdocs-material" %}
-{% set version = "9.4.9" %}
+{% set version = "9.4.10" %}
 
 
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mkdocs_material-{{ version }}.tar.gz
-  sha256: dd9ce8b48c5284578224d34992357d0b7bb86c35cb31d0f9fee0ad90c81a2a44
+  sha256: 421adedaeaa461dcaf55b8d406673934ade3d4f05ed9819e4cc7b4ee1d646a62
 
 
 build:
@@ -34,7 +34,7 @@ requirements:
     - mkdocs-material-extensions ~=1.3
     - pygments ~=2.16
     - pymdown-extensions ~=10.2
-    
+
     - babel ~=2.10
     - colorama ~=0.4
     - paginate ~=0.5
