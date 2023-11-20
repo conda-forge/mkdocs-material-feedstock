@@ -25,7 +25,7 @@ requirements:
     - hatchling
     - hatch-requirements-txt
     - hatch-nodejs-version >=0.3.0
-    - trove_classifiers >=2023.10.18
+    - trove-classifiers >=2023.10.18
   run:
     - python >=3.8
     - jinja2 ~=3.0
