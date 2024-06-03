@@ -34,7 +34,7 @@ requirements:
     - mkdocs-material-extensions ~=1.3
     - pygments ~=2.16
     - pymdown-extensions ~=10.2
-
+    - pyyaml
     - babel ~=2.10
     - colorama ~=0.4
     - paginate ~=0.5
