@@ -35,7 +35,7 @@ requirements:
     - babel >=2.10,<3.dev0
     - colorama >=0.4,<1.dev0
     - paginate >=0.5,<1.dev0
-    - regex >=2022.4
+    - backrefs >=5.7.post1,<6.dev0
     - requests >=2.26,<3.dev0
 
 test:
