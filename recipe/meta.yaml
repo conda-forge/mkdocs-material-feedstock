@@ -1,5 +1,5 @@
 {% set name = "mkdocs-material" %}
-{% set version = "9.6.5" %}
+{% set version = "9.6.6" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mkdocs_material-{{ version }}.tar.gz
-  sha256: b714679a8c91b0ffe2188e11ed58c44d2523e9c2ae26a29cc652fa7478faa21f
+  sha256: 06141bd720b0b235829bd59e8afc11d5587c35ae7fc340612d2b3f554e6a69d8
 
 
 build:
@@ -35,7 +35,7 @@ requirements:
     - babel >=2.10,<3.dev0
     - colorama >=0.4,<1.dev0
     - paginate >=0.5,<1.dev0
-    - regex >=2022.4
+    - backrefs >=5.7.post1,<6.dev0
     - requests >=2.26,<3.dev0
 
 test:
