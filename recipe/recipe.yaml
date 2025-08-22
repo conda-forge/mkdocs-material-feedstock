@@ -1,31 +1,32 @@
-{% set name = "mkdocs-material" %}
-{% set version = "9.6.18" %}
+schema_version: 1
 
+context:
+  name: mkdocs-material
+  version: 9.6.18
 
 package:
-  name: {{ name|lower }}
-  version: {{ version }}
+  name: ${{ name|lower }}
+  version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mkdocs_material-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/mkdocs_material-${{ version }}.tar.gz
   sha256: a2eb253bcc8b66f8c6eaf8379c10ed6e9644090c2e2e9d0971c7722dc7211c05
-
 
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: ${{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python {{ python_min }}
+    - python ${{ python_min }}.*
     - hatchling
     - hatch-requirements-txt
     - hatch-nodejs-version >=0.3.0
     - trove-classifiers >=2023.10.18
   run:
-    - python >={{ python_min }}
+    - python >=${{ python_min }}
     - jinja2 >=3.0,<4.dev0
     - markdown >=3.2,<4.dev0
     - mkdocs >=1.6,<2.dev0
@@ -38,23 +39,20 @@ requirements:
     - backrefs >=5.7.post1,<6.dev0
     - requests >=2.26,<3.dev0
 
-test:
-  imports:
-    - material
-  commands:
-    - pip check
-  requires:
-    - pip
-    - python {{ python_min }}
+tests:
+  - python:
+      imports:
+        - material
+      pip_check: true
+      python_version: ${{ python_min }}.*
 
 about:
-  home: https://squidfunk.github.io/mkdocs-material/
   license: MIT
-  license_family: MIT
   license_file: LICENSE
   summary: A Material Design theme for mkdocs
-  doc_url: https://squidfunk.github.io/mkdocs-material/
-  dev_url: https://squidfunk.github.io/mkdocs-material/customization/
+  homepage: https://squidfunk.github.io/mkdocs-material/
+  repository: https://squidfunk.github.io/mkdocs-material/customization/
+  documentation: https://squidfunk.github.io/mkdocs-material/
 
 extra:
   recipe-maintainers:
