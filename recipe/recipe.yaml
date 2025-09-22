@@ -13,7 +13,7 @@ source:
   sha256: e1f84d21ec5fb730673c4259b2e0d39f8d32a3fef613e3a8e7094b012d43e790
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
@@ -38,6 +38,10 @@ requirements:
     - paginate >=0.5,<1.dev0
     - backrefs >=5.7.post1,<6.dev0
     - requests >=2.26,<3.dev0
+    # Refer - https://github.com/squidfunk/mkdocs-material/blob/f0b0b5931a386b670c19d3e3b78ecd41da144341/requirements.txt#L36C1-L38C12
+    # Temporarily pin click until this is resolved in MkDocs, see
+    # https://github.com/mkdocs/mkdocs/issues/4014#issuecomment-3146508306
+    - click <8.2.2
 
 tests:
   - python:
