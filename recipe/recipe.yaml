@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: mkdocs-material
-  version: "9.7.6"
+  version: "9.7.7"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/mkdocs_material-${{ version }}.tar.gz
-  sha256: 00bdde50574f776d328b1862fe65daeaf581ec309bd150f7bff345a098c64a69
+  sha256: c0649c065b1b0512d60aad8c10f947f8e455284475239b364b610f2deb4d0855
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
